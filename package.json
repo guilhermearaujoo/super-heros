@@ -1,0 +1,16 @@
+{
+  "name": "super-heros",
+  "version": "1.0.0",
+  "description": "This project shows you super heros and villans, and theirs names",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "Guilherme Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^3.2.3"
+  }
+}
