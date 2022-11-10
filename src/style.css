@@ -10,12 +10,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .page {
-  width: 70%;
-  height: 80%;
+  margin-top: 50px;
+  width: 50vw;
+  height: 80vh;
   border-radius: 20px;
   background-color: rgb(57, 57, 57);
   display: flex;
@@ -33,27 +34,30 @@ h1 {
 
 
 .card {
-  position: relative;
-  height: 80%;
-  margin-top: 20px;
+  height: 60%;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 80%;
 }
 
-.card-img {
-  position: relative;
-  height: 70%;
+.card-img { 
+  height: 100%;
 }
 
-.card-img > img {
-  object-fit: cover;
+.img {
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .card-text > p {
+  font-size: 20px;
   color: #fff;
+  margin-top: 10px;
 }
 
 .div-shuffle {
